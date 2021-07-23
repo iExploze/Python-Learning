@@ -1,8 +1,7 @@
-x = "smart"
+def myfunc():
+  global x
+  x = "fantastic"
 
+myfunc()
 
-def IanCool():
-    print("Ian is " + x)
-
-
-IanCool()
+print("Python is " + x)
